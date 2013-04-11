@@ -241,8 +241,10 @@
 				DEBUGGING_SYMBOLS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				OPENSSL_ROOT = "/Users/naqisyed/openssl-1.0.1/";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
+				PLATFORM_NAME = iphoneos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VARIANT = "'debug'";
@@ -253,8 +255,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				OPENSSL_ROOT = "/Users/naqisyed/openssl-1.0.1/";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
+				PLATFORM_NAME = iphoneos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VARIANT = "'release'";
